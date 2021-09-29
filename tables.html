@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+    <body>
+        <h2>Personal Finances</h2>
+
+        <!--'table' tag to create a table
+                - use 'border' to set the border size of the table
+                - use 'bgcolor' attribute to set the color of the table borders
+                - use 'height' and 'width' attributes to set the cells height and width as a whole
+                    - use can use percentage instead of pixel as well, so the size of the cells are adjusted accordingly to the height of the webpage
+            'tr' tag for table rows, use 'bgcolor' attribute to color fill the cell in that row
+                - use the 'align' attribute to customize how the text in the cell is alligned
+            'th' tag for table headings, the text with the table heading tags is bold and center
+                - use 'height' and 'width' attributes to set the cells height and width
+            'td' tag for table data, the text with the table data heading tags is left aligned 
+        -->
+
+        <table border=2px bgcolor="black" height=150 width=100%>
+            <tr bgcolor="grey">
+                <th height=10 width=75>month:</th>
+                <th height=10 width=75>January</th>
+                <th height=10 width=75>February</th>
+                <th height=10 width=75>March</th>
+                <th height=10 width=75>April</th>
+            </tr>
+            <tr bgcolor="yellow" align=left>
+                <th>income:</th>
+                <td>$1500</td>
+                <td>$300</td>
+                <td>$21</td>
+                <td>$3333</td>
+            </tr>
+            <tr bgcolor="red" align=center>
+                <th>expenses:</th>
+                <td>-$500</td>
+                <td>-$1000</td>
+                <td>-$750</td>
+                <td>-$150</td>
+            </tr>
+            <tr bgcolor="green" align=right>
+                <th>savings:</th>
+                <td>$1000</td>
+                <td>$350</td>
+                <td>$750</td>
+                <td>$500</td>
+            </tr>
+        </table>
+    </body>
+</html>

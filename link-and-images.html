@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Links and Images Lesson</title>
+    </head>
+    <body>
+        <h1> Links and Images Lesson</h1>
+        This lesson will be about how to include links and images in your website.
+        <!-- All elements in HTML has attributes. Attributes provide addition information about an element that contains the attribute. They are used in the opening tags of an element and come in a name-value pair-->
+ 
+        <!-- An HTML links are defined with an '<a>' flag. We then need to give an attribute to this '<a>' tag-->
+        <a href="https://www.ucla.edu/"> If you click on this, you will go to UCLA home page</a> <br>
+        <!-- You can also tell the browser to open the link on a new tab by using the 'target' attribute-->
+        <a href="https://www.ucla.edu/" target = _blank> If you click on this, you will go to UCLA home page <bold>on a new tab</bold></a> <br>
+        <br>
+        <!-- To create a download link, put the url (or a path to a file on your local computer) of the file you want to download in the attribute 'href' and add the attribute 'download' with the name you want the downloaded file to be-->
+        <a href = "logo.png" download="name-of-download-file.png">Download a picture</a> <br>
+        <br>
+        <!-- To add a picture to our webpage, use the tag '<img>' which is also a self-closing tag (you don not need to add an ending tag).
+        Other addtributes you can add are: height, width, alt (display a text when a picture cannot be displayed)
+        Note that your can also use percentage to avoid your image to be stretched and so that your image will be resized if the window size changes -->
+        <img src = "ucla-football.jpg" height = 500> <br>
+        <br>
+        <img src = "royce-hall.jpg" height = 50% width = 50%> <br>
+        <br>
+        <img src = "https://upload.wikimedia.org/wikipedia/commons/0/0d/The_University_of_California_UCLA.svg" height = 35% width = 35% alt="Picture from a URL (Wikipedia)"> <br>
+        <br>
+        <img src = "dummy-file-path.jpg" alt="picture does not show because the file cannot be found"> <br>
+        <br>
+        <hr>
+        <h2>An Image With An URL</h2>
+        If you click on the image below, you will be transfered to another website because it is a clickable image.<br>
+        <br>
+        <a href="https://youtu.be/g1e11lsrSvw"><img src = "chancellor-block.jpg" height = 50% width = 50% alt="This is a picture of Chancellor Block"></a>
+
+    </body>
+</html>
