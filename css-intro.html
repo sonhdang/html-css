@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Introduction to CSS</title>
+        <!--- Using 'id' to identify which elemenets you want to have what style
+            - Using 'class' to group all the elements in one class apply style to them all at once. For example if you have a class 'top', in the CSS style, you can modify the entire class's style by using the '.top' identifier
+            - You can also chooose to apply the style to specific elements (i.e. paragraph) of a class by using h1,p.top (header 1 and paragraph of class top) -->
+        <style>
+            #paragraph3{
+                background-color:#111111;
+                color:#00aa00;
+            }
+            p{
+                color:purple;
+            }
+            .top{
+                background-color:#111111;
+                color:white;
+            }
+            p.top{
+                background-color:yellow;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1 class="top">What is CSS?</h1>
+
+        <p id="paragraph1">CSS is an acronym for Cascading Style Sheet. Used in conjunction with HTML. Customized the elements and layout of a webpage</p>
+        
+        <p class="top" id="paragraph2">Imagine building a website as building a house</p>
+        <ul>
+            <li>HTML = structure (ex. floor, roof, walls)</li>
+            <li>CSS = decorations (ex. paint, furniture)</li>
+            <li>Javascript = function (ex. lighting, plumbing)</li>
+        </ul>
+
+        <p id="paragraph3">There are three way to include CSS for a webpage:</p>
+        <ul>
+            <li>Inline: useful for adding a few custom element</li>
+            <li>Internal: we create a pair of a style elements in the head of our HTML document, useful for a single page website</li>
+            <li>External: we can link a CSS file to our HTML file to style one or all pages of a website, useful for many pages website</li>
+        </ul>
+
+        <p>Rules for declaring CSS property</p>
+        <ul>
+            <li>Identify the html element</li>
+            <li>The list of properties are separated by a semicolon and enclosed by curly braces</li>
+            <li>Specify the ‘value’ for a ‘property’ using a colon</li>
+        </ul>
+    </body>
+</html>
