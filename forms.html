@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>How to create a form</h1>
+        <!--To create a form, use the 'form' tag
+            - Use the attribute 'action' which defines the action to be performed when the form is submitted
+            - Use the tag label so that when the user click on the label, it is the same thing as clicking the text box
+            - Use the 'name' attribute during form submission to POST to get the value that we submit when we hit the submit button. This is only used when we're using the server side language like PHP and other languages.
+            - Use the 'placeholder' attribute to defines the value inside the textbox initially.
+            - A common practice is to set the attribute 'name' and 'id' to be the same-->
+        <form action="DO_SOMETHING.PHP">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Joe">
+
+            <br><br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Bruin">
+
+            <br><br>
+
+            <label for="title">Title:</label>
+            <label for="Mr.">Mr.</label>
+            <input type="radio" value="Mr." id="Mr." name="title">
+            <label for="Mrs.">Mrs.</label>
+            <input type="radio" value="Mrs." id="Mrs." name="title">
+            <label for="Miss">Miss.</label>
+            <input type="radio" value="Miss" id="Miss" name="title">
+            <label for="PhD.">PhD.</label>
+            <input type="radio" value="PhD." id="PhD." name="title">
+
+            <br><br>
+
+            <label for="payment">Payment</label>
+            <select id="payment" name="payment">
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Giftcard">Giftcard</option>
+                <option value="Check">Check</option>
+            </select>
+
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="joebruing@ucla.edu">
+
+            <br><br>
+
+            <!-- Add attribute 'min' or 'max' to limit the date input-->
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday" min="2000-01-01">
+
+            <br><br>
+            
+            <!-- Add attribute 'min' or 'max' to limit the min and max number input-->
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+
+            <br><br>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+
+            <br><br>
+
+            <!-- Use the attribute 'maxlenght' to limit the number of character input-->
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" maxlength="12"> max 12 characters
+
+            <br><br>
+
+            <!-- Use the 'step' attribute to divide the slider bar into small steps: If you want to have 5 steps, you input 25 because 100/25 is 5-->
+            <label for="slider">Rate Us</label>
+            1<input type="range" id="slider" name="slider" step="25">5
+
+            <br><br>
+
+            <label for="subscribe">Subscribe</label>
+            <input type="checkbox" id="subscribe" name="subscirbe">
+
+            <br><br>
+
+            <!-- You can specify what file type you want to except by using the attribute 'accept'-->
+            <label for="myfile">Upload a file</label>
+            <input type="file" id="myfile" name="myfile" accept=".txt">
+
+            <br><br>
+
+            <!--This reset button clears all the input of the form-->
+            <input type="reset">
+
+            <br><br>
+            
+            <!--The submit button will excute whatever action we defines with the 'action' attribute in the 'form' tag-->
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
