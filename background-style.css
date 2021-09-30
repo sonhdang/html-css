@@ -1,0 +1,29 @@
+html{
+    /*
+    background: linear-gradient(grey, blue);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    */
+
+    color: white;
+    background-image: url("royce-hall.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/* You can also add a background to a specific element */
+h1{
+    background: linear-gradient(grey, blue, orange, green);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+
+p{
+    /* You can change the direction of gradient by adding 'to left' or 'to right' or 'to top' or 'to bottom' */
+    background: linear-gradient(to right, black, green, navy, purple)
+}
