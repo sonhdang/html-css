@@ -1,0 +1,48 @@
+/* Use the 'link' pseudo-class to change the appearance of our hyperlink*/
+a:link{
+    color:rgb(13, 109, 45)
+}
+
+/* Use the 'visited' pseudo-class to change the appearance of visited hyperlink*/
+a:visited{
+    color: brown;
+}
+
+/* Use the 'hover' pseudo-class of 'button' to change the appearance of the button when you hover the mouse over the button */
+button:hover{
+    background-color: #aa3838;
+    color: white
+}
+
+/* Use the 'active' pseudo-class of 'button' to change the appearance of the button when it's clicked on*/
+button:active{
+    background-color: green;
+    color: white
+}
+
+/* Use the 'first-child' pseudo-class of 'li' to change the appeareance of the first item of the list */
+li:first-child{
+    background-color: #93ff7d
+}
+
+/* Use the 'last-child' pseudo-class of 'li' to change the appearance of the last item of the list */
+li:last-child{
+    background-color: #93ff7d
+}
+
+/* To target the nth item of a list, use the pseudo-class 'nth-child(i)' pseudo-class of 'li' with 'i' is the item you want to target */
+li:nth-child(5){
+    background-color: yellow
+}
+/* You can also use the keyword 'odd' or 'even' inside the parentheses of 'nth-child()' pseudo-class to target item with odd index */
+li:nth-child(even){
+    background-color: grey
+}
+/* We can create a custom formula inside the parentheses of 'nth-child()' to target very specific items within a grouping of some sort. The formula is in the form: an+b
+    nth-child(an+b)
+    a = cycle size
+    n = counter (starts at 0)
+    b = offset value */
+li:nth-child(3n+0){
+    color: red;
+}
