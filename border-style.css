@@ -1,0 +1,24 @@
+h1{
+    /* If you want to target a specific side of the border, you can use the proerties 'border-' followed by the side you want to customize */
+    border-bottom-style: dotted;
+    border-top-style: dashed;
+    border-left-style: ridge;
+    border-left-width: 5px;
+    border-left-color: red;
+}
+
+p{
+    /* A few other options for 'border-style' are 'dashed', 'dotted', 'ridge', 'groove',... */
+    border-style: solid;
+    /* If you have values assigned to the same property, CSS will use the most recent value assigned to that property */
+    border-style: inset;
+    border-style: outset;
+    /* 'padding': distance between the text and the border. The default is 0px */
+    padding: 10px;
+    border-width: 5px;
+    /* If you the property 'border-width' has 4 different values, the first value will be applied to the top border, the second for the right border, the third for the bottom border and the fourth for the left border */
+    border-width: 3px 6px 3px 6px;
+    border-color: navy;
+    /* 'border-radius' gives you rounded corner borders */
+    border-radius: 19px
+}
