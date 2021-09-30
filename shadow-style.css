@@ -1,0 +1,19 @@
+h1{
+    border: 1px solid;
+    width: 200px;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    border-color: black;
+
+    /*
+        The 4 numbers are:
+        horizontal (px)
+        vertical (px)
+        blur (px)
+        color (name,rgb,hex)
+    */
+    /* To add a second shadow, simply add a comma followed by the second shadow customization */
+    text-shadow: 2px -2px 3px yellow, 0px -5px 5px red  ;
+    box-shadow: 10px 10px 5px #666666;
+}
