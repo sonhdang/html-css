@@ -1,0 +1,21 @@
+p{
+    /* The property 'font-family' lets you list a few different fonts that you want to use. Used font will be in the order of which font comes first in the list, depending whether the font can be used. Note that with font names, if there's space in between, you need to put the name in a pair of quotes */ 
+    font-family: "Ink Free", "MV Boli", Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    /* The default for font sizes is 16px. Another measurement used for font size is 'em' and the default is 1em. 1em = 16px */
+    font-size: 18px;
+    text-decoration:underline wavy blue;
+    color: #00AA00;
+    
+}
+
+h1{
+    /* You can also use fonts availble online i.e. font.google.com */
+    font-family: 'Bonheur Royale', cursive;
+    color: #087208
+}
+
+body{
+    background-color: #f1e64a;
+}
