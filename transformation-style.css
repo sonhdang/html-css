@@ -1,0 +1,75 @@
+p{
+    width: 100px;
+    background: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 0px
+}
+
+/* element with id 'p1' is our control*/
+#p1{
+
+}
+
+/* element with id 'p2' will be the one we apply transformation to */
+#p2{
+    transform: translateX(50px);
+}
+
+#p3{
+    transform: translateY(-50px);
+}
+
+#p4{
+    transform: translate(50px, 50px)
+}
+
+#p5{
+    transform: rotateX(180deg);
+}
+
+#p6{
+    transform: rotateY(180deg);
+}
+
+#p7{
+    transform: rotateZ(180deg);
+}
+
+#p8{
+    transform: scaleX(2);
+}
+
+#p9{
+    transform: scaleY(2);
+}
+
+#p9{
+    transform: scaleX(0.5);
+}
+
+#p10{
+    transform: scale(2,2);
+}
+
+#p11{
+    transform: skewX(45deg);
+}
+
+#p12{
+    transform: skewY(45def);
+}
+
+#p13{
+    transform: matrix(0.5,1,1,0.5,50,50)
+
+    /*
+    The 6 arguments of the matrix are:
+        scaleX(),
+        skewY(),
+        skew(X(),
+        scaleY(),
+        translateX(),
+        translateY()
+    */
+}
