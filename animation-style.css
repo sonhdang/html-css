@@ -1,0 +1,178 @@
+#p1{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+
+    animation: myColorAnimation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myColorAnimation1{
+    from{background-color:red;}
+    to{background-color:blue;}
+}
+
+#p2{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+
+    animation: myColorAnimation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myColorAnimation2{
+    0%{background-color:red;}
+    20%{background-color:orange;}
+    40%{background-color:yellow;}
+    60%{background-color:green;}
+    80%{background-color:blue;}
+    100%{background-color:purple;}
+}
+
+#p3{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+
+    animation: myRotateAnimation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myRotateAnimation1{
+    100%{transform: rotateX(1000deg)}
+}
+
+#p4{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+
+    animation: myRotateAnimation2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myRotateAnimation2{
+    100%{transform: rotateY(1000deg)}
+}
+
+#p5{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+
+    animation: myRotateAnimation3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myRotateAnimation3{
+    100%{transform: rotateZ(1000deg)}
+}
+
+#p6{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+
+    animation: myTranslate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myTranslate{
+    50%{transform: translate(200px, 0);}
+}
+
+#p7{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+
+    animation: myScale;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myScale{
+    50%{transform: scale(0.5, 0.5);}
+}
+
+#p8{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+
+    animation: myOpacity;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myOpacity{
+    0%{opacity:0;}
+    50%{opacity:1;}
+    100%{opacity:0;}
+}
+
+#p9{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+
+    animation: myFont;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myFont{
+    0%{font-size:85px;}
+    50%{font-size:20px;}
+    100%{font-size:85px;}
+}
+
+#p10{
+    width:100px;
+    height:100px;
+    background: red;
+    font-size:85px;
+    text-align:center;
+    margin:0px;
+}
+
+/* Moving the animation to 'hover', the animation will start when you move the cursur to the element*/
+#p10:hover{
+    animation: myFont;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
