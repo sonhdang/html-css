@@ -1,0 +1,12 @@
+.fa-youtube{
+    color:red;
+}
+
+.fa-twitter{
+    color:#1DA1F2;
+}
+
+/* This is to get rid of the underline right next to the icon. This is standard for all hyperlinks */
+a{
+    text-decoration: none;
+}
